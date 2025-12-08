@@ -40,11 +40,11 @@ This allows accurate performance comparison between the custom implementation an
 
 3. Directory Structure
 csv_custom/
- → reader.py        → Custom CSV Reader (Iterator + State Machine)
- → writer.py        → Custom CSV Writer (Quoting + Escaping)
- → benchmark.py     → Performance Benchmark Script
- → sample.csv       → Optional demo CSV
- → README.md        → Project documentation
+→ reader.py           # Custom CSV Reader (Iterator + State Machine)
+→ writer.py           # Custom CSV Writer (Quoting + Escaping)
+→ benchmark.py        # Performance Benchmark Script
+→ sample.csv          # Optional demo CSV
+→ README.md           # Documentation
 
 4. CSV Reader Design
 4.1 Reading Strategy
